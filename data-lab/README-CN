@@ -31,14 +31,12 @@
 检查学生使用的运算符是否少于最大数量、是否只使用straight-line C 代码、只使用合法的运算符。
 源代码和 Linux 二进制文件包含在实验文件中。
 
-2. btest: A test harness that checks the functions in bits.c for
-correctness. This tool has been significantly improved, now checking
-wide swaths around the edge cases for integers and floating point
-representations such as 0, Tmin, denorm-norm boundary, and inf.
+2. btest: 一个测试工具，用于检查 bits.c 中的函数正确性。
+此工具已得到显着改进，现在可以检查整数和浮点的边缘情况周围的宽幅表示，
+例如 0、Tmin、denorm-norm 边界和 inf。
 
-3. driver.pl: A autograding driver program that uses dlc and btest to
-check each test function in bits.c for correctness and adherence to
-the coding guidelines
+3. driver.pl: 一个使用 dlc 和 btest 的自动分级驱动程序,检查 bits.c 中的每个测试函数的正确性和遵守
+编码指南
 
 The default version of the lab consists of 15 puzzles, in
 ./src/selections.c, chosen from a set of 73 standard puzzles defined
