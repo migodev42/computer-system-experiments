@@ -1,0 +1,418 @@
+{
+    "root": {
+        "data": {
+            "id": "cdsisxwnwhc0",
+            "created": 1629887232598,
+            "text": "读薄 CSAPP"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdsit5gby7s0",
+                    "created": 1629887249025,
+                    "text": "1 数据表示",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": 59.9999995585531,
+                        "y": -26
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdsitdrelow0",
+                            "created": 1629887267109,
+                            "text": "学习目标"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdsiudjaaxs0",
+                                    "created": 1629887344982,
+                                    "text": "1 理解计算机系统的复杂与和理论抽象描述的不同"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsiudjahow0",
+                                    "created": 1629887344982,
+                                    "text": "2 理解内存中数据的保存形式，以及这种方式的好处以及限制"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsiudjajww0",
+                                    "created": 1629887344982,
+                                    "text": "3 注意避开一些常见的关于计算机的迷思"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsiudjb7jk0",
+                                    "created": 1629887344983,
+                                    "text": "4 区别整型和浮点数的表达机制，并理解为什么会有这种差异"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsiudjavlc0",
+                                    "created": 1629887344983,
+                                    "text": "5 简单理解溢出出现的条件"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdsixgaiiqo0",
+                            "created": 1629887586074,
+                            "text": "编程迷思"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdsixme8fv40",
+                                    "created": 1629887599360,
+                                    "text": "计算机不只是执行程序的机器"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsiy0nuxeo0",
+                                    "created": 1629887630417,
+                                    "text": "很多东西并不像看起来那样简单"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsiyp97rts0",
+                                    "created": 1629887683951,
+                                    "text": "内存里多的是我们不知道的事"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdsj08ex1u80",
+                            "created": 1629887804019,
+                            "text": "比特心生"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdsj0lpo4tk0",
+                                    "created": 1629887832967,
+                                    "text": "研究问题有两种方法，一种是自顶向下，另一种是自底向上。对于设计来说，很多时候是自顶向下的，从一个整体想法出发，然后慢慢细化；而在学习化学的时候，往往是自底向上的，比方说先去了解组成元素的基本粒子，然后在这些粒子的基础上进行更加抽象的研究。从这个角度看，学习计算机系统，自底向上可能是一个好的方向。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsj0shjkmg0",
+                                    "created": 1629887847713,
+                                    "text": "比特新声[7]"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdsj4uge1540",
+                            "created": 1629888165454,
+                            "text": "整型 Integer"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdsjcgjl9m00",
+                                    "created": 1629888762086,
+                                    "text": "C 语言之所以效率高，很大程度上是因为抽象程度较低，很多关键字和计算机系统中的概念是一一对应的。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjew9537c0",
+                                    "created": 1629888953011,
+                                    "text": "整型表示的特点"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjf5xba740",
+                                    "created": 1629888974063,
+                                    "text": "类型转换"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjf8z8zgw0",
+                                    "created": 1629888980711,
+                                    "text": "类型扩展与截取"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjfbx8i5c0",
+                                    "created": 1629888987119,
+                                    "text": "运算与溢出"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdsjfnisbqw0",
+                            "created": 1629889012367,
+                            "text": "浮点数 Float"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdsjfsnrv3s0",
+                                    "created": 1629889023552,
+                                    "text": "IEEE 浮点数标准"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjfwjdzxc0",
+                                    "created": 1629889031994,
+                                    "text": "规范化值(Normalized Values)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjfzepbds0",
+                                    "created": 1629889038241,
+                                    "text": "非规范化值(Denormalized Values)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjg2ie0kg0",
+                                    "created": 1629889044995,
+                                    "text": "特殊值"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgae4ib40",
+                                    "created": 1629889062151,
+                                    "text": "实例学习"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgcmcz8w0",
+                                    "created": 1629889067003,
+                                    "text": "舍入"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgfzl6lc0",
+                                    "created": 1629889074333,
+                                    "text": "浮点数加法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgi4q9ts0",
+                                    "created": 1629889078997,
+                                    "text": "浮点数乘法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdsjglswyqg0",
+                            "created": 1629889086990,
+                            "text": "数据在内存中的形式"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdsjgpnm96g0",
+                            "created": 1629889095377,
+                            "text": "总结"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdsjgs8ln3c0",
+                            "created": 1629889100999,
+                            "text": "参考链接"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdsjgwrai4g0",
+                                    "created": 1629889110836,
+                                    "text": "图灵机"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjgz8mkog0",
+                                            "created": 1629889116238,
+                                            "text": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E7%81%B5%E6%9C%BA"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrao4g0",
+                                    "created": 1629889110837,
+                                    "text": "图灵的秘密"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjh18rd0o0",
+                                            "created": 1629889120600,
+                                            "text": "https://book.douban.com/subject/10779604/"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrb0c80",
+                                    "created": 1629889110837,
+                                    "text": "约翰·冯·诺伊曼"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjh2ul1vc0",
+                                            "created": 1629889124096,
+                                            "text": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%86%AF%C2%B7%E8%AF%BA%E4%BC%8A%E6%9B%BC"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrawkw0",
+                                    "created": 1629889110837,
+                                    "text": "101 页报告"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjh51qrtk0",
+                                            "created": 1629889128883,
+                                            "text": "https://zh.wikipedia.org/wiki/EDVAC%E5%A0%B1%E5%91%8A%E6%9B%B8%E7%9A%84%E7%AC%AC%E4%B8%80%E4%BB%BD%E8%8D%89%E6%A1%88"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrb5q80",
+                                    "created": 1629889110837,
+                                    "text": "哈佛架构"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjh77ztag0",
+                                            "created": 1629889133614,
+                                            "text": "https://zh.wikipedia.org/wiki/%E5%93%88%E4%BD%9B%E7%BB%93%E6%9E%84"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrbksg0",
+                                    "created": 1629889110838,
+                                    "text": "返回导向编程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjh9jlsew0",
+                                            "created": 1629889138670,
+                                            "text": "https://zh.wikipedia.org/wiki/%E8%BF%94%E5%9B%9E%E5%AF%BC%E5%90%91%E7%BC%96%E7%A8%8B"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrbdc80",
+                                    "created": 1629889110838,
+                                    "text": "比特新声"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjhbo8oig0",
+                                            "created": 1629889143304,
+                                            "text": "http://www.bitvoice.xyz/"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdsjgwrbhmg0",
+                                    "created": 1629889110838,
+                                    "text": "布尔代数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdsjhde0t540",
+                                            "created": 1629889147039,
+                                            "text": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%B0%94%E4%BB%A3%E6%95%B0"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
